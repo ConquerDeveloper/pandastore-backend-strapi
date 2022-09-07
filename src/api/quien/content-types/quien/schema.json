@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "quienes",
+  "info": {
+    "singularName": "quien",
+    "pluralName": "quienes",
+    "displayName": "Quienes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nosotros": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.pagina"
+    }
+  }
+}

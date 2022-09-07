@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Clientes",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Clientes": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pagina.pagina"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_pagina_paginas",
+  "info": {
+    "displayName": "Pagina",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carrusel": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "contenido": {
+      "type": "richtext"
+    }
+  }
+}

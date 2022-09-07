@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "horarios",
+  "info": {
+    "singularName": "horario",
+    "pluralName": "horarios",
+    "displayName": "horarios"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "horarios": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "envios",
+  "info": {
+    "singularName": "envio",
+    "pluralName": "envios",
+    "displayName": "Envios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

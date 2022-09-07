@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "certificaciones",
+  "info": {
+    "singularName": "certificacion",
+    "pluralName": "certificaciones",
+    "displayName": "certificaciones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

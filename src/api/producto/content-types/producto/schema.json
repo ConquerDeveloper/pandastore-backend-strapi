@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "singularName": "producto",
+    "pluralName": "productos",
+    "displayName": "Producto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "precio_unidad": {
+      "type": "decimal"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "fecha_creacion": {
+      "type": "datetime"
+    },
+    "categorias": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::categoria.categoria",
+      "mappedBy": "productos"
+    },
+    "carritos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::carrito.carrito",
+      "mappedBy": "productos"
+    },
+    "precio_set": {
+      "type": "decimal"
+    },
+    "codigo": {
+      "type": "string"
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "en_oferta": {
+      "type": "boolean"
+    },
+    "destacado": {
+      "type": "boolean"
+    },
+    "peso": {
+      "type": "float"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

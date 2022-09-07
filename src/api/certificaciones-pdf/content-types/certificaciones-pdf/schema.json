@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificaciones_pdfs",
+  "info": {
+    "singularName": "certificaciones-pdf",
+    "pluralName": "certificaciones-pdfs",
+    "displayName": "CertificacionesPdf",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "documento": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titulo": {
+      "type": "string"
+    }
+  }
+}
